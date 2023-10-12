@@ -7,5 +7,4 @@ SELECT band_name,
        END AS lifespan
 FROM metal_bands
 WHERE style LIKE '%Glam rock%'
-HAVING lifespan > 0
 ORDER BY lifespan DESC;
