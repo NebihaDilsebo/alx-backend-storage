@@ -1,4 +1,3 @@
-#!/bin/bash
+// show databases
 
-# Run the `mongo` shell and execute the `show dbs` command to list all databases
-echo "show dbs" | mongo
+show databases;
