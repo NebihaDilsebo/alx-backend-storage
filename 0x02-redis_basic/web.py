@@ -1,5 +1,10 @@
+#!/usr/bin/env python3
+"""
+web file
+"""
 import requests
 import redis
+
 
 def get_page(url: str) -> str:
     # Initialize a Redis client
